@@ -1,0 +1,6 @@
+version: "3.6"
+services:
+  tplink-energy-monitor:
+    build: .
+    network_mode: "host"
+
